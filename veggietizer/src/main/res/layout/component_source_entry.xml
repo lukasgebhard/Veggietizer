@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/component_source_entry"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:longClickable="false" >
+
+    <TextView
+            android:id="@+id/textView_source_url"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|start"
+            android:layout_weight="1"
+            android:autoLink="web" />
+
+    <TextView
+            android:id="@+id/textView_source_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|end"
+            android:textColor="@android:color/black"/>
+
+</LinearLayout>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Global strings -->
+    <string name="app_name">Veggietizer</string>
+    <string name="app_version">Version:</string>
+    <string name="app_developer">\u00A9 2015-2017 FreeRunningApps</string>
+    <string name="app_playstore_url">https://play.google.com/store/apps/details?id=freerunningapps.veggietizer&amp;hl=de</string>
+    <string name="date_format">dd.MM.yyyy</string>
+    <string name="today">Heute</string>
+    <string name="meat_beef">Rind</string>
+    <string name="meat_pork">Schwein</string>
+    <string name="meat_poultry">Geflügel</string>
+    <string name="meat_sheep_goat">Schaf \u0026 Ziege</string>
+    <string name="meat_fish">Fisch</string>
+    <string name="meat">Fleisch</string>
+    <string name="co_two">CO2</string>
+    <string name="feed">Getreide \u0026 Ölsaaten</string>
+    <string name="water">Wasser</string>
+    <string name="details">Details</string>
+    <string name="ok">OK</string>
+    <string name="unitKilogrammes">kg</string>
+    <string name="unitGrammes">g</string>
+    <string name="unitLitres">l</string>
+    <string name="unitMillilitres">ml</string>
+    <string name="unitKilometres">km</string>
+    <string name="unitMetres">m</string>
+    <string name="unitSquaremetres">m²</string>
+    <string name="unitSquaredecimetres">dm²</string>
+    <string name="placeholder">Platzhalter</string>
+
+    <!-- Action bar -->
+    <string name="action_overflow">Mehr…</string>
+    <string name="action_add">Verzicht hinzufügen</string>
+    <string name="action_history">Verlauf</string>
+    <string name="action_achievements">Errungenschaften</string>
+    <string name="action_about">Quellen &amp; Copyright</string>
+    <string name="action_accept">Bestätigen</string>
+    <string name="action_cancel">Abbrechen</string>
+    <string name="action_discard">Löschen</string>
+    <string name="action_info">Info</string>
+
+    <!-- Overview activity -->
+    <string name="title_activity_overview">Veggietizer</string>
+    <string name="textView_overview_heading">MEINE EINSPARUNGEN</string>
+    <string name="startguide_heading">Willkommen!</string>
+    <string name="startguide_description">Der Veggietizer wird dich spielerisch motivieren, öfter vegetarisch zu essen.\n
+        \nWie das geht? Ganz einfach!\n
+        \nImmer, wenn du dich gegen ein Fleischprodukt entscheidest, kannst du es hier in die App eintragen.
+        Der Veggietizer zeigt dir, welche positiven Auswirkungen du damit erreichst.\n
+        \nUm loszulegen, klicke auf das Plus rechts oben!</string>
+    <string name="update_notifier_heading">Der Veggietizer 2.0 ist da!</string>
+    <string name="update_notifier_description">Hier die Highlights der neuen Version:\n
+        \n\u2022 Lass dir die positiven Auswirkugen deiner Einsparungen veranschaulichen.
+        \n\u2022 Teile deine Errungenschaften mit Freunden.
+        \n\u2022 Dein positiver Fußabdruck wird jetzt noch präziser berechnet.</string>
+
+    <!-- Input activity -->
+    <string name="textView_input_description">Worauf hast du verzichtet?</string>
+    <string name="popup_input_help_title">Aus Vorlagen wählen</string>
+    <string name="popup_input_help_content">Hier kannst du das Gericht auswählen, auf das du verzichtet hast. 
+        Die entsprechende Fleischsorte und Fleischmenge wird dann automatisch gesetzt. 
+        Du kannst die Menge aber noch beliebig anpassen.\n
+        \nFalls keine passende Vorlage dabei ist, kannst du \"Anderes\" wählen und die Fleischsorte sowie die Menge selbst 
+        angeben.</string>
+    <string name="title_activity_input">Hinzufügen</string>
+    <string name="textView_select_meat">Welche Fleischsorte?</string>
+    <string name="textView_select_amount">Wie viel?</string>
+    <string name="textView_select_date">Wann?</string>
+    <string name="toast_missing_meat">Bitte wähle zuerst eine Fleischsorte aus.</string>
+    <string name="toast_missing_amount">Bitte lege zuerst die Menge fest.</string>
+    <string name="toast_missing_amount_meat">Bitte lege zuerst eine Fleischsorte und die Menge fest.</string>
+    <string name="toast_store_success">Eintrag gespeichert.</string>
+    <string name="toast_store_fail">Der Eintrag konnte nicht gespeichert werden. Bitte versuche es erneut.</string>
+    <string name="spinner_meals_steak">Steak</string>
+    <string name="spinner_meals_kebap">Döner</string>
+    <string name="spinner_meals_hotdog">Hotdog</string>
+    <string name="spinner_meals_beacon">Schinkenbrot</string>
+    <string name="spinner_meals_chicken">Halbes Hähnchen</string>
+    <string name="spinner_meals_fish">Fischfilet</string>
+    <string name="spinner_meals_lamb">Lammsbraten</string>
+    <string name="spinner_meals_turkey">Putengeschnetzeltes</string>
+    <string name="spinner_meals_pizza">Pizza Salami</string>
+    <string name="spinner_meals_bolognese">Spaghetti Bolognese</string>
+    <string name="spinner_meals_schnitzel">Wiener Schnitzel</string>
+    <string name="spinner_meals_schnitzel_pork">Schnitzel Wiener Art</string>
+    <string name="spinner_meals_hamburger">Hamburger</string>
+    <string name="spinner_meals_swabian_pockets">Maultaschen</string>
+    <string name="spinner_meals_hunter_schnitzel">Jägerschnitzel</string>
+    <string name="spinner_meals_pork_roast">Schweinsbraten</string>
+    <string name="spinner_meals_sauerbraten">Sauerbraten</string>
+    <string name="spinner_meals_goulash">Gulasch</string>
+    <string name="spinner_meals_curry_sausage">Currywurst</string>
+    <string name="spinner_meals_smoked_pork_chop">Kasseler</string>
+    <string name="spinner_meals_roulade">Roulade</string>
+    <string name="spinner_meals_other">Anderes</string>
+
+    <!-- Instant feedback -->
+    <string name="instant_feedback_popup_title">Du hast eingespart:</string>
+    <string name="instant_popup_fish_info">Die anderen Werte der Fischproduktion werden nicht erfasst,
+        da diese abhängig von Fischart und Zuchtart bzw. Fangort stark variieren.</string>
+
+    <!-- History activity -->
+    <string name="title_activity_history">Verlauf</string>
+    <string name="toast_delete_success">gelöscht.</string>
+    <string name="textView_history_empty">Du hast bisher noch keinen Verzicht eingetragen.</string>
+    <string name="activity_history_add">Verzicht hinzufügen</string>
+
+    <!-- Compare & BarChart activity -->
+    <string name="title_activity_compare">Details</string>
+    <string name="title_activity_barchart">Details</string>
+    <string name="savingsType">Type of savings</string>
+    <string name="savingsAmount">Amount of savings</string>
+    <string name="action_barchart">Details</string>
+    <string name="co_two_capital">CO2</string>
+    <string name="feed_capital">GETREIDE \u0026 ÖLSAATEN</string>
+    <string name="water_capital">WASSER</string>
+    <string name="tourguide_barchart">Hier siehst du, wie viel %1s du pro Fleischsorte bereits eingespart hast.</string>
+    <string name="textView_barchart_subtitle">Deine Einsparungen pro Fleischsorte:</string>
+    <string name="details_info_co2_title">CO2-Emissionen</string>
+    <string name="details_info_water_title">Wasserverbrauch</string>
+    <string name="details_info_feed_title">Kraftfutter</string>
+    <string name="details_info_feed_intro">Bei der konventionellen Tierhaltung ist man darum bemüht,
+        möglichst viel aus den Tieren herauszuholen.
+        Deshalb erhalten sie täglich eine beachtliche Portion Kraftfutter.</string>
+    <string name="textView_barchart_heading">Barchart heading dynamically set</string>
+    <string name="textView_compare_cotwo_top">So viel wird etwa auf einer &lt;b>%1$s&lt;/b> langen Autofahrt
+        freigesetzt.</string>
+    <string name="textView_compare_cotwo_bottom">Von der CO2-Bilanz her kann man damit zum Beispiel
+        &lt;b>%1$s&lt;/b> Weizenmehl, &lt;b>%2$s&lt;/b> Obst oder &lt;b>%3$s&lt;/b>
+        Kartoffeln anbauen.</string>
+    <string name="textView_compare_water_top">Das entspricht dem direkten Wasserverbrauch
+        (Waschen, Duschen, Spülen, usw.) eines Deutschen an &lt;b>%1$s&lt;/b>.</string>
+    <string name="textView_compare_water_bottom">Diese Menge an Wasser reicht für den Anbau von &lt;b>%1$s&lt;/b>
+        Weizenmehl, &lt;b>%2$s&lt;/b> Kartoffeln oder &lt;b>%3$s&lt;/b> Tomaten.</string>
+    <string name="textView_compare_feed_top">Das entspricht dem Kalorienbedarf eines Erwachsenen für
+        &lt;b>%1$s&lt;/b>. Das Fleisch hätte dagegen für &lt;b>%2$s&lt;/b> gereicht.</string>
+    <string name="textView_compare_feed_bottom">Nimmt man das Grünfutter hinzu, wären für den Anbau in einem Jahr
+        &lt;b>%1$s&lt;/b> Land benötigt worden. Auf dieser Fläche kann man statt Tierfutter zum Beispiel
+        &lt;b>%2$s&lt;/b> Kartoffeln anbauen.</string>
+
+    <!-- AnimalChart activity -->
+    <string name="title_activity_animalchart">Details</string>
+    <string name="textView_animalchart_heading">FLEISCH</string>
+    <string name="details_info_meat_title">Fleisch</string>
+    <string name="details_info_meat_intro">Hier findest du einige Fakten rund um\'s Thema Fleisch.</string>
+    <string name="tourguide_animalchart">Hier siehst du, auf wie viel Fleisch du pro Tierart bereits
+        verzichtet hast.</string>
+    <string name="textView_animalchart_subtitle">Deine Einsparungen pro Fleischsorte:</string>
+
+    <!-- Achievement activity -->
+    <string name="title_activity_achievements">Errungenschaften</string>
+    <string name="locked">Gesperrt</string>
+
+    <!-- Achievement related -->
+    <string name="achievement_unlocked">Errungenschaft freigeschaltet!</string>
+    <string name="achievement_requirements_heading_locked">Anforderungen:</string>
+    <string name="achievement_requirements_heading_unlocked">Erreicht:</string>
+    <string name="achievement_placeholder">Errungenschaft Info</string>
+    <string name="achievement_recent_days">innerhalb der letzten %1$d Tage (plus heute)</string>
+    <string name="achievement_today">(Heute)</string>
+    <string name="achievement_today_and_yesterday">heute \u0026 gestern zusammen</string>
+    <string name="ach_heading_0">Der Umdenker</string>
+    <string name="ach_description_0">Der erste Schritt ist getan!
+        \nWar doch eigentlich gar nicht so schwer, oder?\n;-)\n
+        \nÜbrigens, wusstest du schon? Die Deutschen essen heute doppelt so viel Fleisch wie im Jahr 1950. Von 1983
+        bis 2009 ist der Konsum tierischer Nahrung in Europa jedoch um knapp 5 \%% zurückgegangen.</string>
+    <string name="ach_heading_1">Der Hühnerfreund</string>
+    <string name="ach_description_1">Wow! Du hast hiermit die 1-kg-Marke für Geflügel erreicht.
+        Das entspricht etwa dem Gewicht eines Brathähnchens.\n
+        \nWusstest du schon? Der Durchschnitts-Deutsche isst in seinem Leben etwa 1000 Hühner!</string>
+    <string name="ach_heading_2">Der Schweinepriester</string>
+    <string name="ach_description_2">Du hast die 1-Pfund-Marke für Schweinefleisch erreicht!\n
+        \nWusstest du schon? Allein in Deutschland werden jedes Jahr fast 60 Millionen Schweine geschlachtet. Das 
+        entspricht etwa der Einwohnerzahl von Baden-Württemberg, Bayern, Nordrhein-Westfalen, Brandenburg, 
+        Schleswig-Holstein, Hessen, Sachsen-Anhalt und dem Saarland zusammen.</string>
+    <string name="ach_heading_3">Dr. Dolittle</string>
+    <string name="ach_description_3">Du bist ein wahrer Tierfreund!\n
+        \nJetzt kannst du schon für vier Fleischsorten einen 
+        Verzicht verzeichnen… Weiter so!</string>
+    <string name="ach_heading_4">Sau-Gut</string>
+    <string name="ach_description_4">Wahnsinn! Du hast die Fünf-Pfund-Marke bei Schweinefleisch geknackt. 
+        Von einem Schwein bekommt man etwa 85 kg Fleisch.
+        Sage das 33 Freunden oder Bekannten weiter, und ihr könnt zusammen ein ganzes Schwein retten! ;-)</string>
+    <string name="ach_heading_5">Der Klimaretter</string>
+    <string name="ach_description_5">Hervorragend, du hast schon über 25 kg an CO2-Emissionen eingespart!\n
+        \nEtwa so viel CO2 wird bei einer 185 km langen Autofahrt freigesetzt.</string>
+    <string name="ach_heading_6">Voll-Korn</string>
+    <string name="ach_description_6">Ganze zehn Pfund Getreide, Soja, Mais, Raps und Sonnenblumenkerne wären ohne 
+        deinen Einsatz in den Trögen von Tierställen gelandet!\n
+        \nStattdessen kann daraus jetzt zum Beispiel Brot gebacken oder Salatöl gepresst werden.</string>
+    <string name="ach_heading_7">Der Bademeister</string>
+    <string name="ach_description_7">Super! Ganze 20 000 l Wasser hast du jetzt eingespart!\n
+        \nDas entspricht sage und schreibe 143 Badewannen voll.</string>
+    <string name="ach_heading_8">Die Meerjungfrau</string>
+    <string name="ach_description_8">Die Fische werden dir dankbar sein: Du hast insgesamt schon auf 400 g Fisch
+        verzichtet!\n
+        \nWusstest du schon? 47 \%% der europäischen Gewässer gelten offiziell als überfischt. Weltweit werden sogar
+        über 80 \%% der Fischbestände als überbefischt oder grenzbefischt klassifiziert.</string>
+    <string name="ach_heading_9">Das unschuldige Lamm</string>
+    <string name="ach_description_9">Hast du dich dieses Jahr einmal gegen den österlichen Lammsbraten entschieden? 
+        Oder hast du auf Ziegenfleisch verzichtet? Schaf oder Ziege - was es auch war - gut gemacht!\n
+        \nWusstest du schon? Lammsfleisch stammt von Schafen, die höchstens ein Jahr gelebt haben. Natürlicherweise 
+        werden Schafe aber zehn bis zwölf Jahre alt.</string>
+    <string name="ach_heading_10">Der BBQ-Held</string>
+    <string name="ach_description_10">Hast du es beim Grillen mal mit etwas Anderem als Steaks und Würstchen probiert?\n
+        \nSehr gut! Bestimmt hast du festgestellt, dass Grillen auch ohne Fleisch Spaß macht, oder?
+        Tofu-Würstchen, Mais,
+        Baguette, Gemüse - da ist für jeden was dabei…</string>
+    <string name="ach_heading_11">Der Veggienator</string>
+    <string name="ach_description_11">Wow, jetzt meinst du es aber ernst! Du hast innerhalb einer Woche auf ein ganzes
+        Kilo Fleisch verzichtet. Das ist respektabel! Du darfst dich jetzt stolz \"Veggienator\" nennen! ;-)</string>
+    <string name="ach_heading_12">Wild entschlossen</string>
+    <string name="ach_description_12" tools:ignore="StringFormatInvalid">Du ziehst es durch - toll! Immer weiter so.\n
+        \nÜbrigens: Für die Nutztierhaltung werden weltweit über drei Milliarden Hektar Land benötigt.
+        Das sind 70 \%% aller Flächen der Erde, die für Landwirtschaft zur Verfügung stehen.
+        Gleichzeitig leidet jeder neunte Mensch auf der Welt an Hunger…</string>
+    <string name="ach_heading_13">Wurst? Salat!</string>
+    <string name="ach_description_13">Hut ab, du bist schon sehr weit gekommen.
+        Viel fehlt nicht mehr bis zum Vegetarier, was? ;-)</string>
+    <string name="ach_heading_14">Kuh-ler Typ</string>
+    <string name="ach_description_14">Klasse, du hast die 3-Pfund-Marke für Rindfleisch erreicht!\n
+        \nWusstest du schon? Ganze 14 \%% aller menschlich verursachten Treibhausgasemissionen werden der Viehzucht
+        zugeschrieben. Das ist so viel, wie auch durch den weltweiten Transportsektor verursacht wird. Der größte Teil
+        (60 \%%) dieser Emissionen geht allein auf die Rinderhaltung zurück.
+        Die Klimagase entstehen dabei durch die Entwaldung, Umwandlung von Dauergrünland in Ackerflächen, Fütterung
+        sowie durch Ausstoß von Methan durch die Kühe selbst.</string>
+    <string name="ach_heading_15">Satansbraten</string>
+    <string name="ach_description_15">Glückwunsch, du hast den berüchtigten, zwei Kilo schweren Satansbraten
+        freigeschaltet!\n;-)</string>
+    <string name="ach_heading_16">Hühnerauge</string>
+    <string name="ach_description_16">Jetzt hast du schon auf 300 g Geflügel verzichtet, weiter so!\n
+        \nWusstest du schon? Aufgrund der erhöhten Ansteckungsgefahr und unnatürlichen Lebensbedingungen in Massenställen
+        erhalten Masthühner im Schnitt jeden vierten Tag Antibiotika. Dadurch entstehen resistente Keime, die über den
+        Verzehr in unseren Körper gelangen. Die Weltgesundheitsbehörde (WHO) warnt scharf davor, dass die bislang
+        lebensrettenden Antibiotika daher schon bald wirkungslos sein könnten. </string>
+    <string name="ach_heading_17">Der Vegetarier</string>
+    <string name="ach_description_17">Wow! Du hast es tatsächlich geschafft, in den letzten drei Monaten auf 15 Kilo
+        Fleisch zu verzichten. Das entspricht in etwa der Menge Fleisch, die der durchschnittliche Deutsche gegessen
+        hätte. Darauf kannst du wahrlich stolz sein…\n
+        \nJetzt bist du ja schon so gut wie Vegetarier. Hast du in letzter Zeit überhaupt jemals noch Fleisch gegessen?
+        Auf jeden Fall brauchst du den Veggietizer jetzt nicht mehr. Selbstverständlich kannst du ihn aber auch weiterhin
+        noch verwenden - einfach so. ;-)</string>
+    <string name="ach_heading_18">Meister des Verzichts</string>
+
+    <!-- Achievement sharing -->
+    <string name="popup_share_achievement">Weitersagen</string>
+    <string name="ach_share_text_0">Hey, ich habe gerade bewusst mal kein Fleisch gegessen und dabei im
+        Veggietizer meine erste Errungenschaft freigeschaltet! Übrigens, wusstet ihr schon? Die Deutschen essen heute
+        doppelt so viel Fleisch wie im Jahr 1950. Von 1983 bis 2009 ist der
+        Konsum tierischer Nahrung in Europa jedoch um knapp 5 \%% zurückgegangen.</string>
+    <string name="ach_share_text_1">Juhu, ich bin vom Veggietizer zum \"Hühnerfreund\" gekürt worden! :-)
+        Wusstet ihr schon? Der Durchschnitts-Deutsche isst in seinem Leben etwa 1000 Hühner!</string>
+    <string name="ach_share_text_2">Hab gerade im Veggietizer die Errungenschaft \"Der Schweinepriester\"
+        freigeschaltet! :-) Wusstet ihr schon? Allein in Deutschland werden jedes Jahr fast 60 Millionen Schweine
+        geschlachtet. Das entspricht etwa der Einwohnerzahl von Baden-Württemberg, Bayern, Nordrhein-Westfalen,
+        Brandenburg, Schleswig-Holstein, Hessen, Sachsen-Anhalt und dem Saarland zusammen. </string>
+    <string name="ach_share_text_3">Hey, ich habe im Veggietizer die Errungenschaft \"Dr. Dolittle\"
+        freigeschaltet! Dazu gilt es, für vier verschiedene Fleischsorten jeweils einen Verzicht zu
+        verzeichnen.</string>
+    <string name="ach_share_text_4">Juhu, jetzt habe ich insgesamt schon auf fünf Pfund Scheinefleisch
+        verzichtet! Probiert das doch auch mal :-)</string>
+    <string name="ach_share_text_5">Hey, ich bin gerade zum \"Klimaretter\" gekürt worden! :-) Dazu gilt
+        es, 25 kg CO2 einzusparen, indem man seinen Fleischkonsum reduziert. Etwa so viel CO2 wird bei einer 185 km
+        langen Autofahrt freigesetzt. </string>
+    <string name="ach_share_text_6">Hey, da ich gerade immer weniger Fleisch esse, hab ich jetzt vom Veggietizer
+        die Auszeichnung \"Voll-Korn\" erhalten! :-)</string>
+    <string name="ach_share_text_7">Hey, ich habe gerade im Veggietizer die Errungenschaft \"Der Bademeister\"
+        freigeschaltet! :-) Allein durch bewussten Verzicht auf Fleisch habe ich nämlich in der letzten Zeit
+        ganze 20 000 Liter Wasser eingespart. Das sind ungefähr 143 Badewannen voll…</string>
+    <string name="ach_share_text_8">Jetzt ist es offiziell: Ich bin eine Meerjungfrau. :-) Ich habe in der
+        letzten Zeit auf 400 g Fisch verzichtet und daher vom Veggietizer die \"Meerjungfrau\"-Auszeichnung
+        erhalten. Wusstet ihr schon? 47 \%% der europäischen Gewässer gelten offiziell als überfischt.
+        Weltweit werden sogar über 80 \%% der Fischbestände als überbefischt oder grenzbefischt
+        klassifiziert.</string>
+    <string name="ach_share_text_9">Hey, ich habe gerade im Veggietizer die Errungenschaft \"Das unschuldige Lamm\"
+        freigeschaltet! Wusstet ihr schon? Lammsfleisch stammt von Schafen, die höchstens ein Jahr gelebt haben.
+        Natürlicherweise werden Schafe aber zehn bis zwölf Jahre alt.</string>
+    <string name="ach_share_text_10">Heute hab ich mal vegetarisch gegrillt. Dafür bin ich vom Veggietizer
+        zum \"BBQ-Held\" gekürt worden! :-)</string>
+    <string name="ach_share_text_11">Innerhalb der letzten Woche hab ich auf insgesamt 1 kg Fleisch
+        verzichtet. Ihr dürft mich jetzt \"Veggienator\" nennen ;-)</string>
+    <string name="ach_share_text_12" tools:ignore="StringFormatInvalid">Hey, vor kurzem habe ich mir vorgenommen, weniger Fleisch zu essen. Dazu
+        verwende ich die Veggietizer-App. Jetzt habe die Errungenschaft \"Wild entschlossen\" freigeschaltet! :-)
+        Wusstet ihr schon? Für die Nutztierhaltung werden weltweit über drei Milliarden Hektar Land benötigt.
+        Das sind 70 \%% aller Flächen der Erde, die für Landwirtschaft zur Verfügung stehen.
+        Gleichzeitig leidet jeder neunte Mensch auf der Welt an Hunger…</string>
+    <string name="ach_share_text_13">Wurst? Salat!</string>
+    <string name="ach_share_text_14">Jetzt ist es offiziell: Ich bin ein \"Kuh-ler Typ\"! ;-) Um diese
+        Auszeichnung zu erhalten, gilt es, nach und nach auf insgesamt drei Pfund Rindfleisch zu
+        verzichten. Wusstet ihr schon? Ganze 14 \%% aller menschlich verursachten Treibhausgasemissionen werden der
+        Viehzucht zugeschrieben. Das ist so viel, wie auch durch den weltweiten Transportsektor verursacht wird.
+        Der größte Teil (60 \%%) dieser Emissionen geht allein auf die Rinderhaltung zurück.</string>
+    <string name="ach_share_text_15">Yeah, ich habe gerade die Trophäe \"Satansbraten\" erhalten! :-)</string>
+    <string name="ach_share_text_16">Hey, seit einiger Zeit versuche ich, weniger Fleisch zu essen. Gerade habe
+        ich bewusst auf Geflügel verzichtet und dafür prompt vom Veggietizer die Auszeichnung \"Hühnerauge\"
+        erhalten! :-) Wusstet ihr schon? Aufgrund der erhöhten Ansteckungsgefahr und unnatürlichen Lebensbedingungen
+        in Massenställen erhalten Masthühner im Schnitt jeden vierten Tag Antibiotika.
+        Dadurch entstehen resistente Keime, die über den Verzehr in unseren Körper gelangen.
+        Die Weltgesundheitsbehörde (WHO) warnt scharf davor, dass die bislang lebensrettenden Antibiotika daher
+        schon bald wirkungslos sein könnten.</string>
+    <string name="ach_share_text_17">Yeah, ich hab\'s geschafft! Die letzte Errungenschaft, \"Der Vegetarier\",
+        ist geknackt. Ich esse jetzt tatsächlich fast kein Fleisch mehr… Probiert\'s doch auch mal :-)</string>
+
+    <!-- About activity -->
+    <string name="title_activity_about">Quellen &amp; Copyright</string>
+    <string name="about_sources">Quellenangaben:</string>
+    <string name="about_feedback">Fragen, Wünsche und Anregungen sind jederzeit willkommen:
+        freerunningapps@gmail.com</string>
+    <string name="others">Weiteres</string>
+    <string name="image_sources">Bildquellen</string>
+    <string name="diet">Ernährung</string>
+
+    <!-- Weight picker dialog -->
+    <string name="title_fragment_weightpicker">Menge festlegen</string>
+    <string name="weightpicker_accept">Bestätigen</string>
+    <string name="weightpicker_cancel">Abbrechen</string>
+    <string name="textView_gramme">Gramm</string>
+
+    <!-- Date picker dialog -->
+    <string name="toast_datepicker_future">Das gewählte Datum liegt in der Zukunft!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_history_add">Verzicht eintragen</string>
+
+    <!-- Reminder notification -->
+    <string name="reminder_description">Gleich eintragen &amp; Einsparungen ansehen!</string>
+    <string name="reminder_title">Heute auf Fleisch verzichtet?</string>
+
+
+</resources>

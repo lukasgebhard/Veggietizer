@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item android:drawable="@drawable/anim_car1" android:duration="50" />
+    <item android:drawable="@drawable/anim_car2" android:duration="50" />
+    <item android:drawable="@drawable/anim_car3" android:duration="50" />
+    <item android:drawable="@drawable/anim_car4" android:duration="50" />
+    <item android:drawable="@drawable/anim_car5" android:duration="50" />
+    <item android:drawable="@drawable/anim_car6" android:duration="50" />
+    <item android:drawable="@drawable/anim_car7" android:duration="50" />
+    <item android:drawable="@drawable/anim_car8" android:duration="50" />
+    <item android:drawable="@drawable/anim_car9" android:duration="50" />
+    <item android:drawable="@drawable/anim_car10" android:duration="50" />
+    <item android:drawable="@drawable/anim_car11" android:duration="50" />
+    <item android:drawable="@drawable/anim_car12" android:duration="50" />
+    <item android:drawable="@drawable/anim_car1" android:duration="50" />
+    <item android:drawable="@drawable/anim_car2" android:duration="50" />
+    <item android:drawable="@drawable/anim_car3" android:duration="50" />
+    <item android:drawable="@drawable/anim_car4" android:duration="50" />
+    <item android:drawable="@drawable/anim_car5" android:duration="50" />
+    <item android:drawable="@drawable/anim_car6" android:duration="50" />
+    <item android:drawable="@drawable/anim_car7" android:duration="50" />
+    <item android:drawable="@drawable/anim_car8" android:duration="50" />
+    <item android:drawable="@drawable/anim_car9" android:duration="50" />
+    <item android:drawable="@drawable/anim_car10" android:duration="50" />
+    <item android:drawable="@drawable/anim_car11" android:duration="50" />
+    <item android:drawable="@drawable/anim_car12" android:duration="50" />
+    <item android:drawable="@drawable/anim_car1" android:duration="50" />
+    <item android:drawable="@drawable/anim_car2" android:duration="50" />
+    <item android:drawable="@drawable/anim_car3" android:duration="50" />
+    <item android:drawable="@drawable/anim_car4" android:duration="50" />
+    <item android:drawable="@drawable/anim_car5" android:duration="50" />
+    <item android:drawable="@drawable/anim_car6" android:duration="50" />
+    <item android:drawable="@drawable/anim_car7" android:duration="50" />
+    <item android:drawable="@drawable/anim_car8" android:duration="50" />
+    <item android:drawable="@drawable/anim_car9" android:duration="50" />
+    <item android:drawable="@drawable/anim_car10" android:duration="50" />
+    <item android:drawable="@drawable/anim_car11" android:duration="50" />
+    <item android:drawable="@drawable/anim_car12" android:duration="50" />
+    <item android:drawable="@drawable/anim_car1" android:duration="1000" />
+
+</animation-list>

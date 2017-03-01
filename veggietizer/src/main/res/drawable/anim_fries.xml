@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item android:drawable="@drawable/anim_fries1" android:duration="200" />
+    <item android:drawable="@drawable/anim_fries2" android:duration="200" />
+    <item android:drawable="@drawable/anim_fries3" android:duration="200" />
+    <item android:drawable="@drawable/anim_fries4" android:duration="200" />
+    <item android:drawable="@drawable/anim_fries5" android:duration="200" />
+    <item android:drawable="@drawable/anim_fries6" android:duration="200" />
+    <item android:drawable="@drawable/anim_fries7" android:duration="200" />
+    <item android:drawable="@drawable/anim_fries8" android:duration="1000" />
+</animation-list>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="days_feed">
+        <item quantity="other">Tage</item>
+        <item quantity="one">Tag</item>
+    </plurals>
+    <plurals name="days_water">
+        <item quantity="other">Tagen</item>
+        <item quantity="one">Tag</item>
+    </plurals>
+    <plurals name="entry">
+        <item quantity="other">Einträge</item>
+        <item quantity="one">Eintrag</item>
+    </plurals>
+</resources>

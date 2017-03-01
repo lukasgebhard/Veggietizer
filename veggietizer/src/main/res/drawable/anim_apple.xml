@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item android:drawable="@drawable/anim_apple1" android:duration="2000" />
+    <item android:drawable="@drawable/anim_apple2" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple3" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple4" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple5" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple6" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple7" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple8" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple9" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple10" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple11" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple12" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple13" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple14" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple15" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple16" android:duration="50" />
+
+    <item android:drawable="@drawable/anim_apple1" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple2" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple3" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple4" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple5" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple6" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple7" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple8" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple9" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple10" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple11" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple12" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple13" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple14" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple15" android:duration="50" />
+    <item android:drawable="@drawable/anim_apple16" android:duration="50" />
+</animation-list>

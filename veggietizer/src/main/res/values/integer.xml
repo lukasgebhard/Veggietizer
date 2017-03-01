@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="chartWidthPercentage">95</integer>
+    <integer name="animationDuration">1500</integer>
+    <integer name="animationDurationPerIcon">100</integer>
+    <integer name="animationStartDelay">300</integer>
+    <integer name="iconValueAnimal">125</integer>
+    <integer name="iconValueMeat">250</integer>
+    <integer name="iconValueCO2">2000</integer>
+    <integer name="iconValueWater">1000000</integer>
+    <integer name="iconValueFeed">500</integer>
+    
+</resources>
+

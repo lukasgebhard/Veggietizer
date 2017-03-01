@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/component_details_info_group"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:textSize="@dimen/abc_text_size_medium_material"
+          android:paddingLeft="@dimen/listgroup_left_indent"
+          android:paddingBottom="@dimen/listgroup_vertical_padding"
+          android:paddingRight="@dimen/listgroup_horizontal_padding"
+          android:paddingTop="@dimen/listgroup_vertical_padding"
+                 android:textColor="@color/text_gray"/>

@@ -1,0 +1,43 @@
+<resources>
+    <declare-styleable name="BarChart">
+        <attr name="barWidthPercentage" format="float"/>
+        <attr name="textBarMargin" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="barChartHeight" format="dimension"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="barHeading" format="string"/>
+        <attr name="innerColor" format="color"/>
+        <attr name="borderColor" format="color"/>
+        <attr name="greyBar" format="boolean"/>
+        <attr name="startDelayBarChart" format="integer"/>
+        <attr name="animDuration" format="integer"/>
+        <attr name="showBorder" format="boolean"/>
+        <attr name="unitBarChart" format="string"/>
+    </declare-styleable>
+    
+    <declare-styleable name="IconChart">
+        <attr name="chartWidthPercentage" format="float"/>
+        <attr name="iconValue" format="float"/>
+        <attr name="textChartMargin" format="dimension"/>
+        <attr name="headingSize" format="dimension"/>
+        <attr name="iconSize" format="dimension"/>
+        <attr name="iconMargin" format="dimension"/>
+        <attr name="animationDuration" format="integer"/>
+        <attr name="heading" format="string"/>
+        <attr name="animateFromCenter" format="boolean"/>
+        <attr name="startDelayIconChart" format="integer"/>
+        <attr name="unitIconChart" format="string"/>
+        <attr name="iconImg" format="enum">
+            <enum name="notSet" value="0"/>
+        	<enum name="amount" value="1"/>
+        	<enum name="co2" value="2"/>
+        	<enum name="water" value="3"/>
+        	<enum name="feed" value="4"/>
+        	<enum name="beef" value="5"/>
+        	<enum name="pork" value="6"/>
+        	<enum name="poultry" value="7"/>
+        	<enum name="sheep_goat" value="8"/>
+        	<enum name="fish" value="9"/>
+        </attr>
+    </declare-styleable>
+</resources>

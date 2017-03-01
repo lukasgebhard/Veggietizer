@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+                android:oneshot="false">
+    <item android:drawable="@drawable/anim_grain1" android:duration="2000" />
+    <item android:drawable="@drawable/anim_grain2" android:duration="100" />
+    <item android:drawable="@drawable/anim_grain3" android:duration="80" />
+    <item android:drawable="@drawable/anim_grain4" android:duration="90" />
+    <item android:drawable="@drawable/anim_grain5" android:duration="80" />
+    <item android:drawable="@drawable/anim_grain6" android:duration="90" />
+    <item android:drawable="@drawable/anim_grain7" android:duration="90" />
+
+    <item android:drawable="@drawable/anim_grain1" android:duration="100" />
+    <item android:drawable="@drawable/anim_grain2" android:duration="90" />
+    <item android:drawable="@drawable/anim_grain3" android:duration="100" />
+    <item android:drawable="@drawable/anim_grain4" android:duration="110" />
+    <item android:drawable="@drawable/anim_grain5" android:duration="100" />
+    <item android:drawable="@drawable/anim_grain6" android:duration="90" />
+    <item android:drawable="@drawable/anim_grain7" android:duration="80" />
+
+    <item android:drawable="@drawable/anim_grain1" android:duration="90" />
+    <item android:drawable="@drawable/anim_grain2" android:duration="80" />
+    <item android:drawable="@drawable/anim_grain3" android:duration="70" />
+    <item android:drawable="@drawable/anim_grain4" android:duration="80" />
+    <item android:drawable="@drawable/anim_grain5" android:duration="70" />
+    <item android:drawable="@drawable/anim_grain6" android:duration="90" />
+    <item android:drawable="@drawable/anim_grain7" android:duration="100" />
+</animation-list>

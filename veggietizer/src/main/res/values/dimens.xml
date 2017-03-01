@@ -1,0 +1,79 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- General -->
+    <dimen name="heading_text_size">24sp</dimen>
+    <dimen name="margin_small">3dp</dimen>
+    <dimen name="margin_large">12dp</dimen>
+    <dimen name="padding_button">5dp</dimen>
+    <dimen name="listgroup_left_indent">35dp</dimen>
+    <dimen name="listgroup_vertical_padding">7dp</dimen>
+    <dimen name="listgroup_horizontal_padding">5dp</dimen>
+    <dimen name="listentry_vertical_padding">5dp</dimen>
+    <dimen name="listentry_horizontal_padding">4dp</dimen>
+    
+    <!-- Overview Activity -->
+    <dimen name="chartPadding">10dp</dimen>
+    <dimen name="chartTextMargin">15dp</dimen>
+    <dimen name="chartHeadingSize">18sp</dimen>
+    <dimen name="IconChartIconSize">25dp</dimen>
+    <dimen name="IconChartIconMargin">5dp</dimen>
+    
+    <!-- Details Activity -->
+    <dimen name="barChartHeight">11dp</dimen>
+    <dimen name="borderWidth">0px</dimen>
+    <dimen name="paddingToBorder">12dp</dimen>
+    <dimen name="headingPaddingBottom">16dp</dimen>
+    
+    <!-- Achievement Activity -->
+    <dimen name="entry_text_size">18sp</dimen>
+    <dimen name="image_size_achievement">40dp</dimen>
+    
+    <!-- Input Activity -->
+    <dimen name="activity_input_block1_padding_bottom">11dp</dimen>
+    <dimen name="activity_input_inner_margin">10dp</dimen>
+    <dimen name="spinner_meals_dropdown_height">40dp</dimen>
+    
+    <!-- History Activity -->
+    <dimen name="historyMaxIconSize">60dp</dimen>
+    <dimen name="history_padding_top">2dp</dimen>
+
+    <!-- Compare & BarChart Activity -->
+    <dimen name="activity_compare_vertical_margin">30dp</dimen>
+    <dimen name="activity_compare_text_size">16sp</dimen>
+    <dimen name="activity_compare_block_inner_margin">26dp</dimen>
+    
+    <!-- Blocks -->
+    <dimen name="block_horizontal_padding">7dp</dimen>
+    <dimen name="block_vertical_padding">7dp</dimen>
+    <dimen name="block_vertical_padding_large">16dp</dimen>
+    
+    <!-- WeightPicker -->
+    <dimen name="weightPicker_margin_right">5dp</dimen>
+    
+    <!-- Popup -->
+    <dimen name="popup_title_size">22sp</dimen>
+    <dimen name="popup_horizontal_margin">12dp</dimen>
+    <dimen name="popup_vertical_margin">12dp</dimen>
+    <dimen name="popup_title_padding">16dp</dimen>
+    
+    <!-- Achievements Popup -->
+    <dimen name="text_size_achievement_popup">18sp</dimen>
+    <dimen name="icon_text_margin_achievement_popup">7dp</dimen>
+    <dimen name="line_margin_achievement_popup">8dp</dimen>
+    <dimen name="image_size_achievement_popup">90dp</dimen>
+    <dimen name="popup_achievement_horizontal_margin">16dp</dimen>
+    <dimen name="popup_achievement_vertical_margin">16dp</dimen>
+    
+    <!-- Instant Feedback Popup -->
+    <dimen name="text_size_instant_feedback_popup">18sp</dimen>
+    <dimen name="line_margin_instant_feedback_popup">10dp</dimen>
+    <dimen name="icon_margin_instant_feedback_popup">10dp</dimen>
+
+    <!-- About Activity -->
+    <dimen name="about_sources_margin">15dp</dimen>
+
+</resources>

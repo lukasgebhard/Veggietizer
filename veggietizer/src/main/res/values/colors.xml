@@ -1,0 +1,11 @@
+<resources>
+    <color name="text_gray">#8a000000</color>
+    <color name="pear">#ffa9d601</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="holo_gray_light">#33999999</color>
+    <color name="holo_gray">#80999999</color>
+    <color name="veggie_green">#ffabc700</color>
+    <color name="veggie_green_light">#33abc700</color>
+    <color name="veggie_green_dark">#ffa9c400</color>
+    <color name="shape_bg_color">#33999999</color>
+</resources>

@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_overview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <TextView
+                android:id="@+id/textView_overview_heading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingBottom="@dimen/headingPaddingBottom"
+                android:text="@string/textView_overview_heading"
+                android:textSize="@dimen/heading_text_size"/>
+
+            <freerunningapps.veggietizer.view.chart.IconChart
+                android:id="@+id/OverviewAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/iconchart_inset"
+                android:clickable="true"
+                android:onClick="showAnimalChart"
+                android:paddingBottom="@dimen/block_vertical_padding_large"
+                android:paddingTop="@dimen/block_vertical_padding"
+                custom:animationDuration="@integer/animationDurationPerIcon"
+                custom:chartWidthPercentage="@integer/chartWidthPercentage"
+                custom:heading="@string/meat"
+                custom:headingSize="@dimen/chartHeadingSize"
+                custom:iconImg="amount"
+                custom:iconMargin="@dimen/IconChartIconMargin"
+                custom:iconSize="@dimen/IconChartIconSize"
+                custom:iconValue="@integer/iconValueMeat"
+                custom:startDelayIconChart="@integer/animationStartDelay"
+                custom:textChartMargin="@dimen/chartTextMargin" >
+
+            </freerunningapps.veggietizer.view.chart.IconChart>
+
+            <freerunningapps.veggietizer.view.chart.IconChart
+                android:id="@+id/OverviewCO2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/iconchart_inset"
+                android:onClick="showCompareCOtwo"
+                android:paddingBottom="@dimen/block_vertical_padding_large"
+                android:paddingTop="@dimen/block_vertical_padding"
+                custom:animationDuration="@integer/animationDurationPerIcon"
+                custom:chartWidthPercentage="@integer/chartWidthPercentage"
+                custom:heading="@string/co_two"
+                custom:headingSize="@dimen/chartHeadingSize"
+                custom:iconImg="co2"
+                custom:iconMargin="@dimen/IconChartIconMargin"
+                custom:iconSize="@dimen/IconChartIconSize"
+                custom:iconValue="@integer/iconValueCO2"
+                custom:startDelayIconChart="@integer/animationStartDelay"
+                custom:textChartMargin="@dimen/chartTextMargin" >
+            </freerunningapps.veggietizer.view.chart.IconChart>
+
+            <freerunningapps.veggietizer.view.chart.IconChart
+                android:id="@+id/OverviewWater"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/iconchart_inset"
+                android:onClick="showCompareWater"
+                android:paddingBottom="@dimen/block_vertical_padding_large"
+                android:paddingTop="@dimen/block_vertical_padding"
+                custom:animationDuration="@integer/animationDurationPerIcon"
+                custom:chartWidthPercentage="@integer/chartWidthPercentage"
+                custom:heading="@string/water"
+                custom:headingSize="@dimen/chartHeadingSize"
+                custom:iconImg="water"
+                custom:iconMargin="@dimen/IconChartIconMargin"
+                custom:iconSize="@dimen/IconChartIconSize"
+                custom:iconValue="@integer/iconValueWater"
+                custom:startDelayIconChart="@integer/animationStartDelay"
+                custom:textChartMargin="@dimen/chartTextMargin"
+                custom:unitIconChart="@string/unitLitres" >
+            </freerunningapps.veggietizer.view.chart.IconChart>
+
+            <freerunningapps.veggietizer.view.chart.IconChart
+                android:id="@+id/OverviewFeed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/iconchart_inset"
+                android:onClick="showCompareFeed"
+                android:paddingBottom="@dimen/block_vertical_padding_large"
+                android:paddingTop="@dimen/block_vertical_padding"
+                custom:animationDuration="@integer/animationDurationPerIcon"
+                custom:chartWidthPercentage="@integer/chartWidthPercentage"
+                custom:heading="@string/feed"
+                custom:headingSize="@dimen/chartHeadingSize"
+                custom:iconImg="feed"
+                custom:iconMargin="@dimen/IconChartIconMargin"
+                custom:iconSize="@dimen/IconChartIconSize"
+                custom:iconValue="@integer/iconValueFeed"
+                custom:startDelayIconChart="@integer/animationStartDelay"
+                custom:textChartMargin="@dimen/chartTextMargin" >
+            </freerunningapps.veggietizer.view.chart.IconChart>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

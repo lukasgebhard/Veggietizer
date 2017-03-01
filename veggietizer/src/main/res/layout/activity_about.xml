@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="0dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="freerunningapps.veggietizer.view.activity.AboutActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/block_not_pressed"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/block_vertical_padding"
+        android:paddingLeft="@dimen/block_horizontal_padding"
+        android:paddingRight="@dimen/block_horizontal_padding"
+        android:paddingTop="@dimen/block_vertical_padding" >
+
+        <TextView
+            android:id="@+id/textView_about_app_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_small"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:text="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/textView_about_app_developer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_developer"/>
+
+        <TextView
+            android:id="@+id/textView_about_app_version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_version" />
+        
+        <TextView
+            android:id="@+id/textView_about_feedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_feedback"
+            android:autoLink="email" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_weight="1"
+        android:background="@drawable/block_not_pressed"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/block_vertical_padding"
+        android:paddingLeft="@dimen/block_horizontal_padding"
+        android:paddingRight="@dimen/block_horizontal_padding"
+        android:paddingTop="@dimen/block_vertical_padding" >
+
+        <TextView
+            android:id="@+id/textView_about_sources"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/abc_text_size_medium_material"
+            android:text="@string/about_sources"
+            android:layout_marginBottom="@dimen/about_sources_margin"/>
+
+        <ExpandableListView
+            android:id="@+id/expandablelistview_about_sources"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+        </ExpandableListView>
+        
+    </LinearLayout>
+
+</LinearLayout>

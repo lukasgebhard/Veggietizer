@@ -1,0 +1,41 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.2.0'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    jcenter()
+}
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+    defaultConfig {
+        applicationId "freerunningapps.veggietizer"
+        minSdkVersion 11
+        targetSdkVersion 21
+        versionCode 6
+        versionName '2.2'
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+        }
+    }
+    sourceSets { main { assets.srcDirs = ['src/main/assets', 'src/main/assets/'] } }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:21.0.3'
+    compile 'com.android.support:gridlayout-v7:21.0.3'
+    compile 'com.android.support:appcompat-v7:21.0.3'
+
+}

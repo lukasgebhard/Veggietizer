@@ -1,0 +1,41 @@
+<freerunningapps.veggietizer.view.HistoryEntryLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                          android:id="@+id/component_history_entry"
+                                                          android:layout_width="fill_parent"
+                                                          android:layout_height="fill_parent"
+                                                          android:gravity="center_vertical"
+                                                          android:longClickable="false" >
+
+    <ImageView
+        android:id="@+id/imageView_history"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView_history_date"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:paddingTop="@dimen/history_padding_top"
+            android:layout_weight="1"
+            android:textColor="@color/text_gray"/>
+
+        <TextView
+            android:id="@+id/textView_history_meat"
+            android:layout_width="wrap_content"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:textColor="@color/text_gray"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_history_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</freerunningapps.veggietizer.view.HistoryEntryLayout>

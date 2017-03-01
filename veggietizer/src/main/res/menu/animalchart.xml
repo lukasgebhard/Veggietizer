@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="freerunningapps.veggienator.AnimalChartActivity" >
+
+    <item
+        android:id="@+id/action_info"
+        android:icon="@drawable/ic_action_info"
+        android:orderInCategory="1"
+        android:title="@string/action_info"
+        app:showAsAction="always"/>
+
+    <!--
+         Manually adding the action bar overflow like this enables that action button icons are displayed in the
+        overflow dropdown as well.
+    -->
+    <item
+        android:id="@+id/action_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:orderInCategory="2"
+        android:title="@string/action_overflow"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/action_history"
+                android:icon="@drawable/ic_action_history"
+                android:orderInCategory="1"
+                android:title="@string/action_history"/>
+            <item
+                android:id="@+id/action_achievements"
+                android:icon="@drawable/ic_action_achievements"
+                android:orderInCategory="2"
+                android:title="@string/action_achievements"/>
+            <item
+                android:id="@+id/action_about"
+                android:icon="@drawable/ic_action_about"
+                android:orderInCategory="3"
+                android:title="@string/action_about"/>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,222 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string-array name="spinner_meals">
+        <item>@string/spinner_meals_steak</item>
+        <item>@string/spinner_meals_hotdog</item>
+        <item>@string/spinner_meals_beacon</item>
+        <item>@string/spinner_meals_bolognese</item>
+        <item>@string/spinner_meals_chicken</item>
+        <item>@string/spinner_meals_pizza</item>
+        <item>@string/spinner_meals_fish</item>
+        <item>@string/spinner_meals_lamb</item>
+        <item>@string/spinner_meals_schnitzel</item>
+        <item>@string/spinner_meals_schnitzel_pork</item>
+        <item>@string/spinner_meals_turkey</item>
+        <item>@string/spinner_meals_kebap</item>
+        <item>@string/spinner_meals_hamburger</item>
+        <item>@string/spinner_meals_swabian_pockets</item>
+        <item>@string/spinner_meals_hunter_schnitzel</item>
+        <item>@string/spinner_meals_pork_roast</item>
+        <item>@string/spinner_meals_sauerbraten</item>
+        <item>@string/spinner_meals_goulash</item>
+        <item>@string/spinner_meals_curry_sausage</item>
+        <item>@string/spinner_meals_smoked_pork_chop</item>
+        <item>@string/spinner_meals_roulade</item>
+        <item>@string/spinner_meals_other</item>
+    </string-array>
+
+    <string-array name="about_sources_cotwo_urls">
+        <item>https://www.ipcc.ch/pdf/assessment-report/ar5/wg3/ipcc_wg3_ar5_summary-for-policymakers.pdf</item>
+        <item>http://www.ti.bund.de/media/publikationen/thuenen-workingpaper/ThuenenWorkingPaper_03.pdf</item>
+        <item>http://www.wwf.de/fileadmin/fm-wwf/Publikationen-PDF/Klimawandel_auf_dem_Teller.pdf</item>
+        <item>http://www.theicct.org/sites/default/files/publications/EU_pocketbook_2014.pdf</item>
+    </string-array>
+
+    <string-array name="about_sources_cotwo_dates">
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+    </string-array>
+
+    <string-array name="about_sources_water_urls">
+        <item>http://www.umweltbundesamt.de/daten/private-haushalte-konsum/wasserverbrauch-der-privaten-haushalte</item>
+        <item>http://www.wasserfussabdruck.org/Reports/Flachmann%20et%20al%202012.%20Wasserfussabdruck%20von%20Ernahrungsgutern%20in%20Deutschland.pdf</item>
+        <item>http://www.waterfootprint.org/Reports/Mekonnen-Hoekstra-2011-WaterFootprintCrops.pdf</item>
+    </string-array>
+
+    <string-array name="about_sources_water_dates">
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+    </string-array>
+
+    <string-array name="about_sources_feed_urls">
+        <item>http://www.wwf.de/fileadmin/fm-wwf/Publikationen-PDF/WWF_Fleischkonsum_web.pdf</item>
+        <item>http://www.wwf.de/themen-projekte/landwirtschaft/ernaehrung-konsum/fleisch/soja-als-futtermittel/</item>
+        <item>https://www.landwirtschaftskammer.de/landwirtschaft/tierproduktion/schafhaltung/fuetterung/futterwerte-schafe.htm</item>
+        <item>http://www.landwirtschaft-mv.de/cms2/LFA_prod/LFA/content/de/Fachinformationen/Tierproduktion/Schafhaltung/Leistung_Gebrauchskreuzung/Fleischleistung_Laemmer_2010_(Gebrauchskreuzung).pdf</item>
+    </string-array>
+
+    <string-array name="about_sources_feed_dates">
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+    </string-array>
+    
+    <string-array name="about_sources_diet_urls">
+        <item>https://vebu.de/themen/gesundheit/studien</item>
+        <item>https://vebu.de/themen/gesundheit/naehrstoffe/2372-wichtige-naehrstoffe-vegetarisch-vegan</item>
+        <item>http://www.kalorientabelle.net</item>
+    </string-array>
+
+    <string-array name="about_sources_diet_dates">
+        <item>22.08.2015</item>
+        <item>22.08.2015</item>
+        <item>18.08.2015</item>
+    </string-array>
+
+    <string-array name="about_sources_others_urls">
+        <item>http://www.fao.org/3/a-i4037e.pdf</item>
+        <item>http://www.fao.org/docrep/018/i3437e/i3437e.pdf</item>
+        <item>http://www.bund.net/fileadmin/bundnet/publikationen/landwirtschaft/140108_bund_landwirtschaft_fleischatlas_2014.pdf</item>
+        <item>http://www.wwf.de/themen-projekte/meere-kuesten/fischerei/ueberfischung/</item>
+        <item>http://www.wwf.de/themen-projekte/landwirtschaft/produkte-aus-der-landwirtschaft/runde-tische/runder-tisch-rindfleisch/</item>
+        <item>http://www.sueddeutsche.de/wirtschaft/massentierhaltung-bitte-keine-antibiotika-1.1973067</item>
+        <item>http://www.fleischerhandwerk.de/cms/upload/pdf/GB2014_Fleischverzehr.pdf</item>
+        <item tools:ignore="TypographyDashes">https://www.ama.at/getattachment/c9170514-b892-46ff-9e27-f2fd74e0d9b9/220_schlachtgew_2003-2014.pdf</item>
+        <item>http://www.focus.de/gesundheit/ernaehrung/medikamente-in-der-massentierhaltung-mast-huehner-erhalten-jeden-vierten-tag-antibiotika_aid_1038784.html</item>
+    </string-array>
+
+    <string-array name="about_sources_others_dates">
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+        <item>18.08.2015</item>
+    </string-array>
+
+    <string-array name="about_sources_images_urls">
+        <item>Das Icon in der Errungenschaft \"Der Umdenker\" stammt von http://vector4free.com. Sie steht unter der Creative Commons Attribution 3.0 Unported License: http://creativecommons.org/licenses/by/3.0/</item>
+        <item>Alle anderen Icons in den Errungenschaften sowie die Animationen auf den \"Details\"-Seiten basieren auf Grafiken von http://www.Freepik.com.</item>
+    </string-array>
+
+    <string-array name="about_sources_images_dates">
+        <item/>
+        <item/>
+    </string-array>
+
+    <string-array name="details_info_meat_groups">
+        <item>Fleischkonsum in Deutschland</item>
+        <item>Weltweite Schlachtungen</item>
+        <item>Weniger Fleisch = Mangelernährung?</item>
+    </string-array>
+
+    <string-array name="details_info_meat_entries">
+        <item>Ein Deutscher isst im Schnitt 1.7 kg Fleisch pro Woche. Davon sind 60 \%% Schweinefleisch.</item>
+        <item>Dem folgenden Überblick kannst du entnehmen,
+            wie viele Tiere weltweit in einem Jahr geschlachtet werden:\n
+        \n\u2022 Rinder: 296 Millionen
+        \n\u2022 Schweine: 1 383 Millionen
+        \n\u2022 Hühner: 58 110 Millionen
+        \n\u2022 Schafe: 517 Millionen
+        \n\u2022 Ziegen: 430 Millionen
+        \n\u2022 Enten: 2 817 Millionen
+        \n\u2022 Truthähne: 654 Millionen
+        \n\u2022 Gänse, Perlhühner: 649 Millionen</item>
+        <item>Vegetarier können sich
+            in der Regel ohne jegliche Nahrungsergänzungsmittel gesund und ausgewogen ernähren.\n
+            \nZahlreichen Studien zufolge sind vegetarisch-vegan lebende Menschen
+            sogar seltener von Bluthochdruck, Herz-Kreislauf-Erkrankungen, Übergewicht, Diabetes
+            Typ II und Krebs betroffen.\n
+            \nFür eine ausgewogene vegetarische Ernährung ist es lediglich wichtig,
+            auf folgende Nährstoffe zu achten:\n
+            \n• Eisen (in Hülsenfrüchten, Vollkorn-Getreide, Nüssen)
+            \n• Omega-3-Fettsäuren (in Leinöl, Rapsöl, Walnussöl, Hanföl)
+            \n• Jod (in jodiertem Speisesalz, Algen)
+            \n• Zink (in Hülsenfrüchten, Vollkorn-Getreide, Nüssen)
+            \n• Vitamin D (wird bei Sonneneinstrahlung in der Haut gebildet)
+        </item>
+    </string-array>
+
+    <string-array name="details_info_co2_groups">
+        <item>Klimakiller Viehzucht</item>
+        <item>CO2-Äquivalent?</item>
+        <item>Wie werden meine Einsparungen berechnet?</item>
+    </string-array>
+
+    <string-array name="details_info_co2_entries">
+        <item>Viehzucht beschleunigt den Klimawandel. Denn bei der Herstellung von Fleisch
+        entstehen von Anfang bis Ende schädliche Klimagase.\n
+        \nDer Veggietizer zeigt dir, wie viel CO2-Äquivalent du schon eingespart hast.</item>
+        <item>CO2-Äquivalent bedeutet, dass außer CO2 auch andere klimaschädliche Gase wie Methan und Lachgas
+        berücksichtigt werden. Dazu werden sie gemäß ihrer Klimaschädlichkeit in CO2 umgerechnet.\n
+        \nSo hat Methan zum Beispiel ein 20-fach größeres Treibhauspotential als CO2.
+        Methangas entsteht beim Verdauungsprozess von Kühen in rauen Mengen,
+        wodurch die Atmosphäre stark belastet wird.</item>
+        <item>Der Veggietizer bezieht bei der Berechnung des CO2-Äquivalents alle Emissionen mit ein, die mit der
+        Fleischproduktion in Verbindung stehen:\n
+            \nDazu zählen die Gase,
+        die durch die Ausscheidungen der Tiere entstehen, außerdem die Futtererzeugung (insbesondere Düngung),
+        Verarbeitung, Lagerung, Verpackung und der Transport.\n
+        \nDarüber hinaus werden in den Ländern des Südens täglich
+        etliche Hektar Regenwald gerodet, um Soja und Mais für unsere Nutztiere anzubauen. Auch dadurch entstehen
+        Treibhausgase. Die Zahlen diesbezüglich schwanken jedoch sehr und werden daher vom Veggietizer nicht
+        miteinberechnet.</item>
+    </string-array>
+
+    <string-array name="details_info_water_groups">
+        <item>Der \"Wasserfußabdruck\"</item>
+        <item>Blauer &amp; grüner Wasserfußabdruck</item>
+        <item>Wie werden meine Einsparungen berechnet?</item>
+        <item>Zum Vergleich: Kartoffeln</item>
+    </string-array>
+
+    <string-array name="details_info_water_entries">
+        <item>Für die Produktion von Fleisch ist sehr viel Wasser erforderlich.\n
+            \nDie Menge an Wasser, die zur Herstellung eines Fleischprodukts benötigt wird,
+            bezeichnet man als den Wasserfußabdruck dieses Produkts. Dazu zählt nicht nur das Trinkwasser der Tiere,
+            sondern auch das Wasser, das zum Futteranbau benötigt wird.</item>
+        <item>Genauer unterscheidet man dabei zwischen dem \"blauen\" und dem \"grünen\" Wasserfußabdruck.
+        Der blaue beinhaltet Bewässerungswasser aus Grund- und Oberflächenwasser, der grüne bezeichnet hingegen
+        Regenwasser und Bodenfeuchtigkeit.\n
+            \n\"Grünes\" Niederschlagswasser wird somit zu \"blauem\" Wasser,
+        sobald es ins Grundwasser sickert.</item>
+        <item>Der Veggietizer bezieht bei der Berechnung des von dir eingesparten Wassers sowohl den blauen als auch
+        den grünen Wasserfußabdruck ein.\n
+            \nDabei wird Fisch jedoch nicht berücksichtigt,
+        da schwer zu ermessen ist, wie viel Wasser ein Fisch \"verbraucht\":
+        Ein Meeresfisch hat einen völlig anderen Wasserfußabdruck als ein Fisch aus Aquakultur.</item>
+        <item>Wusstest du, dass für die Herstellung von einem Kilo Kartoffeln fast 150 mal weniger Wasser
+            benötigt wird als für ein Kilo Rindfleisch?
+            Unsere Ernährungsgewohnheiten haben also einen signifikanten Einfluss auf die Umwelt.</item>
+    </string-array>
+
+    <string-array name="details_info_feed_groups">
+        <item>Warum Kraftfutter?</item>
+        <item>Woraus besteht das Kraftfutter?</item>
+        <item>Wie viel der gesamten Ernte landet in den Trögen?</item>
+        <item>Was berechnet der Veggietizer?</item>
+    </string-array>
+
+    <string-array name="details_info_feed_entries">
+        <item>Bei der konventionellen Tierhaltung ist man darum bemüht,
+        möglichst viel aus den Tieren herauszuholen.
+        Deshalb erhalten sie täglich eine beachtliche Portion Kraftfutter.</item>
+        <item>Das Kraftfutter ist je nach Tierart aus Getreide, Mais, Soja, Raps und Sonnenblumenkernen zusammengesetzt.
+        All das könnten wir natürlich stattdessen auch direkt selbst essen.</item>
+        <item>Die deutsche Landwirtschaft verfüttert 60 \%% allen Getreides und 70 \%% aller Ölsaaten
+            an die Tiere. Weltweit werden rund 80 \%% des importierten Sojas als Tierfutter verwendet.\n
+            \nJe mehr wir also auf pflanzliche Ernährung setzen, desto mehr Getreide steht uns zur Verfügung…</item>
+        <item>Der Veggietizer zeigt dir, wie viel Getreide und Ölsaaten in Deutschland benötigt worden wären,
+            um die von dir eingetragenen Fleischprodukte herzustellen.\n
+            \nBeachte jedoch, dass Fischfutter dabei nicht berücksichtigt wird.
+        Der Grund dafür ist, dass die benötigten Futtermengen je nach Fischart enorm schwanken. Beispielsweise benötigt
+        ein Karpfen etwa 50 \%% mehr Futter als ein Lachs, um gleich viel Fleisch anzusetzen.</item>
+    </string-array>
+</resources>
