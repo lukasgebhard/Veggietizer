@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/veggietizer.iml" filepath="$PROJECT_DIR$/veggietizer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/veggietizer/veggietizer-veggietizer.iml" filepath="$PROJECT_DIR$/veggietizer/veggietizer-veggietizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Veggietizer.iml" filepath="$PROJECT_DIR$/Veggietizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/veggietizer/veggietizer.iml" filepath="$PROJECT_DIR$/veggietizer/veggietizer.iml" />
     </modules>
   </component>
 </project>
-
